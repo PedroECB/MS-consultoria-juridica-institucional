@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face{
+    font-family:'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+@font-face{
+    font-family:'Lato';
+    src: url('../fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family:'Ubuntu-normal';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
