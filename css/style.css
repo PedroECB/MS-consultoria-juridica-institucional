@@ -1,6 +1,24 @@
 @charset "utf-8";
 
+
+body{
+    background-color: rgb(219, 226, 224);
+}
+
+footer{
+    margin-top: 1000px;
+}
+
+
+
                                 /* Barra de navegação */
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 img.img-logo{
     width: 50px;
     margin: 0;
@@ -27,6 +45,19 @@ li.nav-item > a.nav-link:hover{
     border-bottom: 3px solid black;   
 }
 
+
+/* Toggle icon */
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../img/hamburguer02.png');
+}
+.navbar-light .navbar-toggler{
+    color: transparent;
+    border-color: transparent;
+}
+
+/*  */
+
 .botao-tel{
     border: 2px solid black;
     border-radius: 5px;
@@ -44,4 +75,19 @@ li.nav-item > a.nav-link:hover{
     .botao-tel{
         display: none;
     }
+
+    li.nav-item{
+        text-align: center;
+    }
+}
+
+
+                                           /* Main */
+
+.main{
+    margin-top: 60px;
+    height: 550px;
+    background: url('../img/100bc25cad4e613081d21d88735a437b-20151214084411.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
