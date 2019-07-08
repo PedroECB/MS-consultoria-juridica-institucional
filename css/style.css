@@ -117,3 +117,22 @@ img.main-logo{
         margin: 15% auto;
     }
 }
+
+
+.sobre{
+    background-color: white;
+}
+
+.sobre h3{
+    text-shadow: 1px 1px 1px rgb(59, 59, 59);
+}
+
+.sobre p{
+    text-align: justify;
+    font-family: 'Lato';
+}
+
+.text-gold{
+    color:  rgb(185, 150, 103);
+    font-family: 'Lato';
+}
