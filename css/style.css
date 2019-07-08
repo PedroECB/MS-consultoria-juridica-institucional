@@ -17,6 +17,7 @@ footer{
     position: fixed;
     top: 0px;
     width: 100%;
+    box-shadow: 1px 1px 5px rgb(58, 57, 57);
 }
 
 img.img-logo{
@@ -86,8 +87,33 @@ li.nav-item > a.nav-link:hover{
 
 .main{
     margin-top: 60px;
-    height: 550px;
-    background: url('../img/100bc25cad4e613081d21d88735a437b-20151214084411.jpg');
-    background-attachment: fixed;
+    height: 500px;
+    background: url('../img/imgq5w4e8q78.png');
+    background-attachment:fixed;
     background-size: cover;
+}
+
+.sub-main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+img.main-logo{
+    margin-top:5%;
+}
+
+.seta{
+    display: none;
+    border-style: solid;
+    border-width: 30px;
+    border-color: white transparent transparent transparent; 
+}
+
+
+@media(max-width:420px){
+    .seta{
+        display: block;
+        margin: 15% auto;
+    }
 }
