@@ -5,9 +5,6 @@ body{
     background-color: rgb(219, 226, 224);
 }
 
-footer{
-    margin-top: 1000px;
-}
 
 
 
@@ -18,6 +15,10 @@ footer{
     top: 0px;
     width: 100%;
     box-shadow: 1px 1px 5px rgb(58, 57, 57);
+}
+
+#logo{
+    /* display: none; */
 }
 
 img.img-logo{
@@ -66,6 +67,7 @@ li.nav-item > a.nav-link:hover{
     box-sizing: border-box;
     font-family: 'Ubuntu-normal', sans-serif;
     font-weight: normal;
+    color: rgb(185, 150, 103);
 }
 
 .botao-tel:hover{
@@ -119,6 +121,9 @@ img.main-logo{
 }
 
 
+                                                    /* Quem somos */
+
+
 .sobre{
     background-color: white;
     border-bottom: 2px solid rgba(185, 150, 103, 0.3)
@@ -166,3 +171,81 @@ img.main-logo{
 .mini-text{
     font-family: 'Lato'
 }
+
+
+
+                                                       /* Endereço */
+.address{
+
+    background:url('../img/imgq5w4e8q78.png') no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.65);
+    /* width: 100%; */
+}
+
+
+span.address-text{
+    display: block;
+    padding: 25px;
+}
+
+span>i{
+    margin-right: 10px;
+}
+
+.address-text{
+    font-weight: bold;
+    font-family: 'Lato';
+    font-size: 1.4em;
+    left: 15px;
+}
+
+
+.button-call{
+    padding: ;
+    margin: 15px auto;
+    display: block;
+    width: 90%;
+    font-weight: bold;
+    font-family: 'Lato';
+    background-color: rgb(185, 150, 103);
+    color: rgb(31, 30, 30);
+
+}
+
+.map-google{
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+
+                                            /* Footer */
+
+
+footer{
+    background-color: white;
+    height: 70px;
+    padding-bottom: 50px;
+}
+
+
+footer a{
+    font-weight: bolder;
+    color: rgb(185, 150, 103);
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+    /* footer a i{
+
+        font-size: 2em !important;
+    } */

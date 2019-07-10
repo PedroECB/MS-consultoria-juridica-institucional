@@ -53,7 +53,7 @@
           <div class="sub-main">
             <div class="container">
               <div class="row justify-content-center">
-                  <img class="main-logo img-fluid" src="img/logoOrigin.png" alt="Logo; MS Consultoria Jurídica" title="MS-Consultoria jurídica">
+                  <img id="logo" class="main-logo img-fluid" src="img/logoOrigin.png" alt="Logo; MS Consultoria Jurídica" title="MS-Consultoria jurídica">
                 </div>
                 <div class="row">
                     <span class="seta"></span>
@@ -67,7 +67,7 @@
         <div class="container-fluid">
           <div class="row sobre">
             <div class="col-md-12 position-static">
-              <article class="my-5">
+              <article class="my-5" id="qsm">
                   <h3 class="text-center text-gold font-weight-bold sombreado">QUEM SOMOS</h3>
                   <p class="my-3 mx">
                       Somos um escritório de advocacia e consultoria jurídica com mais de 20 anos de tradição familiar na área jurídica, buscando dia a dia a máxima celeridade na satisfação do direito de nossos clientes, nas vias judiciais e extrajudiciais, porem sem nunca perde a qualidade que uma boa advocacia exigir.
@@ -82,7 +82,7 @@
                                                 <!-- Áreas de atuações -->
 
         <div class="container-fluid">
-          <div class="row atuacao py-5">
+          <div class="row atuacao py-5 px-2">
               <div class="col-md-4 position-static pt-2 atuacao-block">
                 <h3 class="text-gold text-center sombreado my-3">Direito do Consumidor</h3>
                 <img class="img-fluid mini-logos" src="img/ico-Direito-Imobiliario-70x70.png" alt="Direito do consumidor">
@@ -113,15 +113,40 @@
           </div>
         </div>
 
+      
+      <div class="container-fluid address">
+
+        <div class="row overlay py-5">
+          <div class="col-md-6 position-static">
+            <h3 class="text-center text-gold">Contato</h3>
+            <address>
+                <span class="address-text text-gold"><i class="fa fa-map-marker" aria-hidden="true"></i> Av Dom João VI, nº 77, bairro de brotas, Salvador-BA, Cep: 43810-271.</span>
+                <span class="address-text text-gold"><i class="fa fa-phone" aria-hidden="true"></i> (71) 3200-2513 | (71) 3036-3517</span>
+                <span class="address-text text-gold"><i class="fa fa-envelope-o" aria-hidden="true"></i> mscj@gmail.com</span>
+                <button class="btn btn-md button-call">FALE COM UM ADVOGADO</button>
+            </address>
+          </div>
+
+          <div class="col-md-6 position-static">
+              <h3 class="text-center text-gold mb-2">Endereço</h3>
+              <iframe class="map-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7691684787633!2d-38.495296885465486!3d-12.98661059084606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604b577fb55e9%3A0x124529d23db994a!2sAv.+Dom+Jo%C3%A3o+VI+-+Acupe+de+Brotas%2C+Salvador+-+BA%2C+40301-155!5e0!3m2!1spt-BR!2sbr!4v1562787498334!5m2!1spt-BR!2sbr" width="80%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
 
 
 
 
 
 
+      <!-- <span class="address-text text-gold"><i class="fa fa-map-marker" aria-hidden="true"></i> Av Dom João VI, nº 77, bairro de brotas.</span>
+                <span class="address-text text-gold"><i class="fa fa-phone" aria-hidden="true"></i> (71) 3200-2513 | (71) 3036-3517</span>
+                <span class="address-text text-gold"><i class="fa fa-envelope-o" aria-hidden="true"></i> mscj@gmail.com</span> -->
 
-    <footer>
-        dasds
+    <footer class="text-center py-3">
+        <a href="https://github.com/PedroECB" target="_blank">
+          <i class="fa fa-github github-icon" aria-hidden="true"></i><span class="autor-text"> Desenvolvido por Pedro Carvalho</span>
+      </a>
     </footer>
 
     <!-- Optional JavaScript -->
@@ -129,5 +154,32 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>
+    
+    (function(){
+
+          $('#logo').hide(1)
+          $('#logo').show(2500)
+
+
+
+      // function escreve(){
+      //     $('body').ready(function(){
+      //       if($(window).scrollTop()>80){
+      //           $('#qsm').slideDown(1000)
+      //           // console.log($(window).scrollTop())
+      //         }
+      //     })
+      // }
+
+      // setInterval(escreve, 500)
+
+    })()
+ 
+    
+    
+    
+    </script>
 </body>
 </html>
