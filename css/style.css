@@ -118,6 +118,17 @@ img.main-logo{
         display: block;
         margin: 15% auto;
     }
+
+    img.main-logo{
+        width: 80%;
+    }
+}
+
+@media(max-width:420px) and (max-height:570px){
+
+    .main{
+        height: 450px;
+    }
 }
 
 
